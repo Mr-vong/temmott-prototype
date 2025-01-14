@@ -11,7 +11,7 @@ export default function Navigation(){
           <Link to="/" className="nav-link">About me</Link>
         </div>
         <div>
-          <Link to="/" className="nav-link">Gallery</Link>
+          <Link to="/gallery" className="nav-link">Gallery</Link>
         </div>
         <div>
           <Link to="/" className="nav-link">Contact</Link>

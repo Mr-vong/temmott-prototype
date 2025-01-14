@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './global.css'
 import Root from './pages/Root'
 import Home from './pages/home/page'
+import Gallery from './pages/gallery/page'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />
+      },
+      {
+        path: "gallery",
+        element: <Gallery />
       }
     ]
   }
