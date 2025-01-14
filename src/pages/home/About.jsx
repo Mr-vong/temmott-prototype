@@ -10,8 +10,8 @@ export default function AboutMe(){
             </div>
             <button className="button purple">Let's know more about me</button>
           </div>
-          <div className="image-wrappers flex-1">
-            <img src="images/about-image.jpg" alt="About image" />
+          <div className="p-1 border border-solid border-cs-bronze flex-1">
+            <img className="w-full h-full cursor-pointer" src="images/about-image.jpg" alt="About image" />
           </div>
         </div>
       </div>
