@@ -6,8 +6,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        'abril-fatface': 'Abril Fatface',
         'inspiration': 'Inspiration',
         'agbalumo': 'Agbalumo',
+      },
+      screens: {
+        "tablet": { max: "991px" },
+        "mobile": {  max: "768px"}
       },
       colors: {
         'primary': '#FF6E3A',

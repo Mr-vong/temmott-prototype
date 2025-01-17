@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './global.css'
 import Root from './pages/Root'
-import Home from './pages/home/page'
-import Gallery from './pages/gallery/page'
+import Home from './pages/home/Page'
+import Gallery from './pages/gallery/Page'
 
 const router = createBrowserRouter([
   {
