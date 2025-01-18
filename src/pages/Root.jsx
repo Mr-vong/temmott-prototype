@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import Navigation, { HamburgerMenu } from "../components/Navigation";
 import { useEffect, useState } from "react";
 
@@ -24,6 +24,7 @@ export default function Root(){
       <header className={`fixed ${isWideScreen ? "left-1/2 top-3 -translate-x-1/2 z-50" : "top-5 right-4"} z-50`}>
         {isWideScreen ? <Navigation /> : <HamburgerMenu />}
       </header>
+      <ScrollRestoration />
       <Outlet />
     </div>
   )

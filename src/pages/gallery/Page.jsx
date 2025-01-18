@@ -36,7 +36,7 @@ export default function Page() {
       <div className="con">
         <div className="text-center">
           <h1 className="font-agbalumo text-primary mt-20 mb-24">Gallery</h1>
-          <div className="grid grid-cols-3 auto-rows-[300px] gap-7">
+          <div className="grid grid-cols-3 auto-rows-[300px] gap-7 tablet:gap-2 mobile:grid-cols-2">
             {images.map((image, index) => (
               <ImageWrapper key={index}>
                 <img src={image.url} alt={`Image ${index + 1}`} />
